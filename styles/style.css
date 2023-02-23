@@ -53,7 +53,8 @@
 }
 
 .projects__item {
-    width: 350px;
+    width: 100%;
+    max-width: 350px;
     height: 250px;
     margin: 10px auto 0;
     border: 1px dashed #FFDAB9;
@@ -112,6 +113,7 @@ a {
   .skills__list {
     display: flex;
     list-style: none;
+    justify-content: space-around;
   }
 
 .footer {
